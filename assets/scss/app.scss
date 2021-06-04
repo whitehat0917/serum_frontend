@@ -1,0 +1,22 @@
+// Custom bootstrap variable overrides
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700';
+@import url('https://rsms.me/inter/inter.css');
+
+@import "bootstrap_variable_overrides";
+
+// Bootstrap and its default variables
+@import "bootstrap/bootstrap";
+
+// Your style
+@import "variables";
+@import "mixins";
+@import "general";
+@import "layout";
+@import "module";
+
+//Layout
+@import "layout/header";
+@import "layout/sidebar";
+
+// Pages
+@import "pages/credits";
